@@ -1,0 +1,21 @@
+body{
+    background-size: cover;
+    background-image: url(https://pixabay.com/get/g165d06bed9c171aa2124401db9933a00cb2a72fa2be796ce7d9c8bcfe945e23dcc2d355c91c75841f6d90a405253ab1d_1920.jpg);
+    display: flex;
+    align-items: stretch;
+}
+
+#login{
+    display: block;
+    box-sizing: border-box;
+    padding: 20px 20px 0 20px;
+    width: auto;
+    max-width: 400px;
+    margin: 0;
+    background: #fff;
+}
+
+.login form{
+    border: none;
+    box-shadow: none !important;
+}

@@ -1,0 +1,131 @@
+
+body.login{
+  /*background: #fff !important;*/
+
+
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+
+
+  background: #1397a067; /* Old browsers */
+ background: -moz-linear-gradient(-45deg, #442200 0%, #43004c 100%); /* FF3.6-15 */
+ background: -webkit-linear-gradient(-45deg, #442200 0%,#43004c 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(135deg, #442200 0%,#43004c 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+
+ 
+}
+
+#login{
+  padding: 40px 20px;
+  border-radius: 30px;
+  width: 280px;
+  background: #d37400; /* Old browsers */
+  background: -moz-linear-gradient(-45deg, #d37400 0%, #6c00e0 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(-45deg, #d37400 0%,#6c00e0 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(135deg, #d37400 0%,#6c00e0 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+}
+
+.login form {
+  background: none;
+  padding: 0 20px;
+  border: none;
+  box-shadow: none !important;
+}
+
+.login form input,
+.login form .input,
+.login form input[type="checkbox"],
+.login input[type="text"]
+{
+  background: none;
+  border: none;
+  border-bottom: 1px solid #fdbad7;
+  box-shadow: none;
+  color: #fdbad7;
+}
+
+.login form p,
+.login form label{
+  color: #fdbad7;
+}
+
+label[for="user_login"],
+label[for="user_pass"],
+label[for="user_email"] {
+  visibility: hidden;
+  font-size: 1px;
+}
+
+label[for="user_login"] input,
+label[for="user_pass"] input,
+label[for="user_email"] input {
+  visibility: visible;
+}
+
+
+.login #nav a,
+.login #backtoblog  a{
+  color: #fdbad7;
+}
+
+.login #nav a:hover,
+.login #backtoblog  a:hover,
+.login #nav a:focus,
+.login #backtoblog  a:focus{
+  color: #fdbad7;
+  text-decoration: underline;
+  box-shadow: none;
+}
+
+
+.login .message,
+.login #login_error{
+  opacity: 0.5;
+  border-left-color: #63032d;
+}
+
+
+
+.login form .forgetmenot{
+  float: none;
+  display: block;
+}
+
+.login form .forgetmenot input{
+  box-shadow: none;
+  background: #fdbad7;
+}
+
+.login form #wp-submit{
+  float: none;
+  display: block;
+  width: 100%;
+  padding: 6px;
+  border: none;
+  box-shadow: none;
+  border-radius: 30px;
+  margin: 20px 0;
+  height: 40px;
+
+  background: #fff;
+  color: #280112;
+  text-shadow: none;
+  font-weight:bold;
+
+  /*transition: background-color 0.2s ease;*/
+
+  background: #eeeeee; /* Old browsers */
+  background: -moz-linear-gradient(top, #eeeeee 0%, #cccccc 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(top, #eeeeee 0%,#cccccc 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom, #eeeeee 0%,#cccccc 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+}
+
+.login form #wp-submit:hover{
+  background: #63032d;
+  color: #fdbad7;
+  box-shadow: none;
+  border-bottom: none;
+}
